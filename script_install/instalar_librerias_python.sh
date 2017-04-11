@@ -1,5 +1,7 @@
 #Ejecutar como root
 
+apt-get install postgresql
+
 apt-get install python-ldap python-pypdf2 python-pip python-arrow python-vobject python-webdav python-ldap3 python-wrapt python-setuptools python-werkzeug python-lxml python-relatorio python-genshi python-dateutil python-polib python-psycopg2 python-pydot unoconv python-sphinx python-levenshtein python-bcrypt
 
 pip install pytz
