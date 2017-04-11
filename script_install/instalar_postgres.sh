@@ -1,4 +1,4 @@
-apt-get install postgresql
+#apt-get install postgresql
 
 # cambiar metodo de autenticación en el archivo
 # /etc/postgresql/9.4/main/pg_hba.conf
@@ -10,12 +10,14 @@ apt-get install postgresql
 # reiniciar servicio postgresql
 
 # cambiar el password de postgres
-psql -U postgres
-ALTER USER postgres with password 'new-password';
+#psql -U postgres
+psql
+ALTER USER postgres with password "TecBa!2017";
+\q
 
 #su postgres
 #psql 
-CREATE DATABASE dbname OWNER rolename;
+#CREATE DATABASE dbname OWNER rolename;
 
 #DROP 
-DROP DATABASE "YourDatabase";
+#DROP DATABASE "YourDatabase";
