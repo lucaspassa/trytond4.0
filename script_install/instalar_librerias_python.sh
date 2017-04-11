@@ -2,10 +2,16 @@
 
 apt-get install python-ldap python-pypdf2 python-pip python-arrow python-vobject python-webdav python-ldap3 python-wrapt python-setuptools python-werkzeug python-lxml python-relatorio python-genshi python-dateutil python-polib python-psycopg2 python-pydot unoconv python-sphinx python-levenshtein python-bcrypt
 
+pip install pytz
+pip install simpleeval
+pip install cached_property
+pip install zeep
+
 #instalar pyhton-sql
 hg clone http://hg.tryton.org/python-sql/
 cd python-sql
 python setup.py install
+cd ..
 
 # instalar a mano por que se necesita la versión espesifica que tiene 
 # * ar.cuit: CUIT (Código Único de Identificación Tributaria, Argentinian tax number)
@@ -14,8 +20,5 @@ python setup.py install
 
 wget https://pypi.python.org/packages/98/3c/1dc75d27c30416e76cfeb11fbfdb365204e036a9061c4837e716af7cdf6c/python-stdnum-1.5.tar.gz
 tar zxf python-stdnum-1.5.tar.gz
-
-pip install pytz
-pip install simpleeval
-pip install cached_property
-pip install zeep
+cd python-stdnum-1.5
+python setup.py install
