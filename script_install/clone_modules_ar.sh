@@ -42,3 +42,8 @@ cd ..
 git clone https://github.com/gcoop-libre/cooperative_ar
 cd cooperative_ar
 git checkout -b 4.0 origin/4.0
+
+git clone https://github.com/tryton-ar/sale_pos_ar.git
+cd sale_pos_ar
+git checkout -b 4.0 origin/4.0
+cd ..
