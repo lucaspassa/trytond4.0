@@ -47,3 +47,24 @@ git clone https://github.com/tryton-ar/sale_pos_ar.git
 cd sale_pos_ar
 git checkout -b 4.0 origin/4.0
 cd ..
+
+git clone https://github.com/tryton-ar/current_account
+cd current_account
+git checkout -b 4.0 origin/4.0
+cd ..
+
+git clone https://github.com/tryton-ar/citi_afip
+cd citi_afip
+git checkout -b 4.0 origin/4.0
+cd ..
+
+git clone https://github.com/tryton-ar/subdiario
+cd subdiario
+git checkout -b 4.0 origin/4.0
+cd ..
+
+git clone https://github.com/tryton-ar/account_report_ar
+cd account_report_ar
+git checkout -b 4.0 origin/4.0
+cd ..
+
